@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags"%>
+<!DOCTYPE html>
+ <html lang="ar" dir="rtl">
+ <head>
+ <!-- Required meta tags -->
+ <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<!-- local bootstrap-->
+<link rel="stylesheet" href="/zadtesting/resources/css/bootstrap-rtl.min.css">
+
+		<!-- RTL Morteza-->
+  
+ 
+ 
+		<!-- local css-->
+ <link rel="stylesheet" type="text/css" href="/zadtesting/resources/css/style.css">
+ 
+ 	
+ 
+		<!--  online bootstrap ------ Latest compiled and minified CSS--->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">   -->
+
+<!-- fontawesome library for icons-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	
+	<!-- additional -->
+<link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+
+		
+ 	<!-- rtl  dos not work	<link rel="stylesheet" href="/zadtesting/resources/css/bootstrap-rtl.css">-->
+	
+
+
+	
+	
+	
+
+
+
+
+
+

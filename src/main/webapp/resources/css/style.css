@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+:root {
+
+  --unrwaDefulteBg:#018dcc;
+  --primaryDark: #0a335c;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+
+  body::before {
+  	display:block;
+  	content:'';
+  	height:50px;
+  }
+ 
+  hero{ 
+    background-image: url("/zadtesting/resources/images/edu-main-croped.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+  }
+  logo{
+    text-align: center;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: top center ;
+    padding-top: 120px;
+    font-size: 1.2rem;
+  }
+  .font-cu-cairo{
+    font-family: 'Cairo', sans-serif;
+  }
+ /* --------------------------------------------readingtext--------------------------------------------------------- */
+  .readingtext{
+    padding: 10px;
+    background-color: WhiteSmoke;
+  }
+  .readingtext .section-header{
+    border: 1px solid DarkSeaGreen;
+    border-radius: 5px 5px;
+    background-color: DarkSeaGreen;
+    background-image: url("/zadtesting/resources/images/reading.jpg");
+    background-position: top left;
+    padding: 8px 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.readingtext .section-header h3{
+  text-align: center;
+} 
+.readingtext .readingtext-text{
+    width: 90%;
+    font-size: 20px;
+    font-family: Cairo, Arial, Helvetica, sans-serif;
+    
+    text-indent: 40px;
+    /*text-align: justify;*/ /*done with bootstrap*/
+    padding: 10px;
+    background-color:white;
+    border: 1px solid #f0f3f7
+  }
+  /* --------------------------------------------vedio--------------------------------------------------------- */
+  .vedio{
+    /* border: 1px solid rgb(138, 142, 143); */
+    background-color: WhiteSmoke;
+    padding: 10px;
+  }
+  .vedio .section-header{
+    /* border: 1px solid #0080ff; */
+    border-radius: 5px;
+    background-color: IndianRed;
+    background-image: url("/zadtesting/resources/images/video-icon-circle-Smart.png");
+    background-position: top left;
+    padding: 8px 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.vedio .section-header h3{
+  text-align: center;
+}
+  .vedio img{
+    width: 100%;
+  }
+  /* --------------------------------------------picture--------------------------------------------------------- */
+  .picture{
+    padding: 10px;
+    background-color: WhiteSmoke;
+  }
+  .picture .section-header{
+    border-radius: 5px;
+    background-color: SteelBlue;
+     border: 1px solid SteelBlue;
+    background-image: url("/zadtesting/resources/images/picture-icon.png");
+    background-position: top left;
+    padding: 8px 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.picture .section-header h3{
+  text-align: center;
+}
+  .picture img{
+    /*width: 100%;*/
+    text-align: center;
+  }
+   
+ 
+  
+  
+  .shadow{
+    border:1px solid rgb(160, 159, 159); 
+    /* box-shadow:2px 2px 5px rgb(65, 68, 70); */
+    box-shadow:1px 1px 4px rgb(157, 161, 163);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    
+  }
+
+  
+  
+
+
+.bg-cu-unrwa {
+	background-color: var(--unrwaDefulteBg);
+}
+@media screen and (max-width:768px){
+
+	/*----------------------showcase 768-------------------------------*/
+	.wave {
+	display:none;
+	}
+}
